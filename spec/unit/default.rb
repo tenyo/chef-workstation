@@ -2,11 +2,11 @@ require_relative '../spec_helper.rb'
 
 # Example below, modify as needed
 
-#describe 'yaleits-skel' do
+#describe 'chef-workstation' do
 #
 #  let(:chef_run) { ChefSpec::SoloRunner.converge(described_recipe) }
 #
-#  packages = %w{ git iptraf }
+#  packages = %w{ git }
 #  packages.each do |pkg|
 #    it "installs package #{pkg}" do
 #      expect(chef_run).to install_package(pkg)

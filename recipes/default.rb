@@ -1,12 +1,9 @@
 #
-# Cookbook Name:: yaleits-skel
+# Cookbook Name:: chef-workstation
 # Recipe:: default
 #
-# Copyright (C) 2015 Yale ITS
-#
-# All rights reserved - Do Not Redistribute
+# Author: Tenyo Grozev (tenyo.grozev@yale.edu)
 #
 
-# include recipes as needed, e.g.
-#include_recipe "apache2"
+#include_recipe "chef-dk"
 

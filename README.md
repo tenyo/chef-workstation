@@ -1,27 +1,27 @@
-# yaleits-XXX
+# chef-workstation
 
-TODO: Enter the cookbook description here.
+Sets up a machine as a Chef workstation
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Fedora
 
 ## Attributes
 
 ## Usage
 
-### yaleits-XXX::default
+### chef-workstation::default
 
-Include `yaleits-XXX` in your node's `run_list`:
+Include `chef-workstation` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[yaleits-XXX::default]"
+    "recipe[chef-workstation]"
   ]
 }
 ```
 
 ## License and Authors
 
-Author:: Yale ITS (its-sa-engineering@yale.edu)
+Author:: Tenyo Grozev (tenyo.grozev@yale.edu)
